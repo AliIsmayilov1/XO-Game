@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="start">
+        <h1 onclick="startGame()">Start game</h1>
+        <h3 onclick="showSettings()">Settings</h3>
+    </div>
+    <div id="theme">
+        <h1>Choose theme of game:</h1>
+        <h3 onclick="darkTheme()" id="dark">
+            Dark
+        </h3>
+        <h3 onclick="lightTheme()" id="light">
+            Light
+        </h3>
+        <i onclick="backToMenu()" class="fa-solid fa-arrow-left"></i>
+    </div>
+    <div id="game">
+        <div id="cell1"></div>
+        <div id="cell2"></div>
+        <div id="cell3"></div>
+        <div id="cell4"></div>
+        <div id="cell5"></div>
+        <div id="cell6"></div>
+        <div id="cell7"></div>
+        <div id="cell8"></div>
+        <div id="cell9"></div>
+    </div>
+    <i id="back" style="display: none;" onclick="backToMenu()" class="fa-solid fa-arrow-left"></i>
+    
+    
+    <script src="https://kit.fontawesome.com/4aa266d153.js" crossorigin="anonymous"></script>
+    <script src="xo.js"></script>
+</body>
+
+</html>
