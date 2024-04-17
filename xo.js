@@ -12,6 +12,9 @@ function darkTheme() {
 function lightTheme() {
     document.body.style.backgroundColor = "white"
     document.body.style.color = "black"
+    for (let i = 0; i < document.querySelectorAll("div#game > div").length; i++) {
+        document.querySelectorAll("div#game > div")[i].style.borderColor="black"
+    }
 }
 function backToMenu() {
     document.getElementById("start").style.display = "flex"
