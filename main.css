@@ -68,6 +68,12 @@ div#game {
     grid-template-columns: auto auto auto;
 }
 
+div#game>div {
+    cursor: pointer;
+    width: 161.800px;
+    height: 195.837px;
+}
+
 div#game>div:nth-child(2) {
     border-inline: 5px solid black;
     border-bottom: 5px solid black;
@@ -96,4 +102,12 @@ div#game>div:nth-child(4) {
 
 div#game>div:nth-child(6) {
     border-bottom: 5px solid black;
+}
+div#game>div>i{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
 }

@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>XO-Game</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="tic-tac-toe.png">
 </head>
 
 <body>
@@ -24,15 +25,16 @@
         <i onclick="backToMenu()" class="fa-solid fa-arrow-left"></i>
     </div>
     <div id="game">
-        <div id="cell1"></div>
-        <div id="cell2"></div>
-        <div id="cell3"></div>
-        <div id="cell4"></div>
-        <div id="cell5"></div>
-        <div id="cell6"></div>
-        <div id="cell7"></div>
-        <div id="cell8"></div>
-        <div id="cell9"></div>
+        <div onclick="writeX(1)" id="1"></div>
+        <div onclick="writeX(2)" id="2"></div>
+        <div onclick="writeX(3)" id="3"></div>
+        <div onclick="writeX(4)" id="4"></div>
+        <div onclick="writeX(5)" id="5"></div>
+        <div onclick="writeX(6)" id="6"></div>
+        <div onclick="writeX(7)" id="7"></div>
+        <div onclick="writeX(8)" id="8"></div>
+        <div onclick="writeX(9)" id="9"></div>
+        
     </div>
     <i id="back" style="display: none;" onclick="backToMenu()" class="fa-solid fa-arrow-left"></i>
     
